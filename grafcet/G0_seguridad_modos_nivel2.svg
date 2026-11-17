@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="740" viewBox="0 0 1180 740">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1f2937">G0 · Seguridad y modos — GRAFCET nivel 2 (tecnológico)</text>
+<text x="24" y="56" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280">✱ Todo nuevo en el Reto 2. F/G1:{E0} = forzar G1 a E0 (salidas en 0) · F/G1:{ } = forzar G1 a ninguna etapa activa.</text>
+<g font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11"><rect x="930" y="16" width="14" height="14" fill="#fff7ed" stroke="#c2410c"/><text x="950" y="27" fill="#c2410c">✱ Nuevo en el Reto 2</text><rect x="930" y="36" width="14" height="14" fill="#f8fafc" stroke="#1f2937"/><text x="950" y="47" fill="#1f2937">Reto 1 (sin cambios)</text></g>
+<line x1="90" y1="98" x2="1080" y2="98" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="520" y1="98" x2="520" y2="120" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="498" y="120" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<rect x="502" y="124" width="36" height="36" fill="none" stroke="#c2410c" stroke-width="1.4"/>
+<text x="520" y="147" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">S0</text>
+<text x="560" y="146" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="start">Operación normal</text>
+<line x1="520" y1="164" x2="520" y2="182" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="280" y1="182" x2="700" y2="182" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="280" y1="182" x2="280" y2="262" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="267" y1="214" x2="293" y2="214" stroke="#c2410c" stroke-width="3.2"/>
+<text x="262" y="218" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TS1</text>
+<text x="300" y="210" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(/SN_PP01_HS_02_STOP + SCADA_STOP)</text>
+<text x="300" y="226" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">· /ESTOP_ACTIVA</text>
+<rect x="258" y="262" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="280" y="289" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">S1</text>
+<line x1="302" y1="284" x2="324" y2="284" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="324" y="262" width="103.52" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.4"/>
+<text x="334" y="280" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">F/G1:{E0}</text>
+<text x="334" y="296" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">STOP_CMD = 1</text>
+<line x1="280" y1="306" x2="280" y2="376" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="267" y1="340" x2="293" y2="340" stroke="#c2410c" stroke-width="3.2"/>
+<text x="262" y="344" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TS2</text>
+<text x="300" y="336" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SN_PP01_HS_02_STOP · /SCADA_STOP</text>
+<text x="300" y="352" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(STOP liberado)</text>
+<polyline points="280,376 90,376 90,98" fill="none" stroke="#c2410c" stroke-width="1.6"/>
+<polygon points="90,248 85,258 95,258" fill="#c2410c"/>
+<line x1="700" y1="182" x2="700" y2="262" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="687" y1="214" x2="713" y2="214" stroke="#c2410c" stroke-width="3.2"/>
+<text x="682" y="218" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TS3</text>
+<text x="720" y="218" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">/SN_PP01_HS_03_ESTOP (hongo presionado)</text>
+<rect x="678" y="262" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="700" y="289" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">S2</text>
+<line x1="722" y1="284" x2="744" y2="284" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="744" y="246" width="249.67999999999998" height="76" fill="#fff7ed" stroke="#c2410c" stroke-width="1.4"/>
+<text x="754" y="264" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">F/G1:{ }</text>
+<text x="754" y="280" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ESTOP_ACTIVA = 1</text>
+<text x="754" y="296" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_ESTOP = 1 (robot: StopMove)</text>
+<text x="754" y="312" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ALM_EMERGENCIA = 1</text>
+<line x1="700" y1="306" x2="700" y2="412" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="687" y1="356" x2="713" y2="356" stroke="#c2410c" stroke-width="3.2"/>
+<text x="682" y="360" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TS4</text>
+<text x="720" y="352" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SN_PP01_HS_03_ESTOP (hongo liberado)</text>
+<text x="720" y="368" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">· (SN_PP01_HS_04_RESET + SCADA_RESET)</text>
+<rect x="678" y="412" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="700" y="439" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">S3</text>
+<line x1="722" y1="434" x2="744" y2="434" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="744" y="404" width="256.64" height="60" fill="#fff7ed" stroke="#c2410c" stroke-width="1.4"/>
+<text x="754" y="422" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">F/G1:{E0}</text>
+<text x="754" y="438" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ESTOP_ACTIVA = 0</text>
+<text x="754" y="454" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_ESTOP = 0 (robot: StartMove)</text>
+<line x1="700" y1="456" x2="700" y2="522" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="687" y1="488" x2="713" y2="488" stroke="#c2410c" stroke-width="3.2"/>
+<text x="682" y="492" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TS5</text>
+<text x="720" y="492" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">/SN_PP01_HS_04_RESET · /SCADA_RESET</text>
+<polyline points="700,522 1080,522 1080,98" fill="none" stroke="#c2410c" stroke-width="1.6"/>
+<polygon points="1080,298 1075,308 1085,308" fill="#c2410c"/>
+<text x="24" y="676" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="start">Prioridad: la emergencia (TS3) también se evalúa estando en S1. Los botones Stop y Emergencia de Factory IO son NC (1 = sin presionar).</text>
+<text x="24" y="691" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="start">La emergencia simulada NO es una función de seguridad: en el robot físico manda su propia cadena de seguridad.</text>
+<text x="24" y="726" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">Reto 2 SCADA · UNAL · Juan Esteban Otavo García · GRAFCET IEC 60848 · generado con generar_grafcet.js</text>
+</svg>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1010" height="1330" viewBox="0 0 1010 1330">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1f2937">G1 · Planta Pick &amp; Place — GRAFCET nivel 2 (tecnológico)</text>
+<text x="24" y="56" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280">Condiciones y acciones con los tags del PLC (MainProgram y controlador). Temporizaciones con notación t/Xi.</text>
+<g font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11"><rect x="760" y="16" width="14" height="14" fill="#fff7ed" stroke="#c2410c"/><text x="780" y="27" fill="#c2410c">✱ Nuevo en el Reto 2</text><rect x="760" y="36" width="14" height="14" fill="#f8fafc" stroke="#1f2937"/><text x="780" y="47" fill="#1f2937">Reto 1 (sin cambios)</text></g>
+<rect x="308" y="90" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<rect x="312" y="94" width="36" height="36" fill="none" stroke="#1f2937" stroke-width="1.4"/>
+<text x="330" y="117" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E0</text>
+<text x="290" y="108" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="end">✱ Activa al primer scan (S:FS)</text>
+<text x="290" y="123" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="end">y por forzado F/G1:{E0} de G0</text>
+<line x1="330" y1="134" x2="330" y2="162" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="154" x2="343" y2="154" stroke="#c2410c" stroke-width="3.2"/>
+<text x="312" y="158" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">T1</text>
+<text x="350" y="150" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(SN_PP01_HS_01_START + SCADA_START) · /STOP_CMD</text>
+<text x="350" y="166" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">· /ESTOP_ACTIVA · CNT_CAJAS &lt; CNT_PRESET</text>
+<line x1="330" y1="156" x2="330" y2="190" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="150" y1="176" x2="330" y2="176" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="308" y="190" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="217" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E1</text>
+<line x1="352" y1="212" x2="380" y2="212" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="190" width="131.35999999999999" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="208" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_01 = 1</text>
+<line x1="330" y1="234" x2="330" y2="290" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="254" x2="343" y2="254" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="258" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T2</text>
+<text x="350" y="258" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_01_ZS_01</text>
+<line x1="210" y1="274" x2="330" y2="274" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="308" y="290" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="317" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E2</text>
+<line x1="352" y1="312" x2="380" y2="312" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="290" width="131.35999999999999" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="308" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_01 = 0</text>
+<line x1="330" y1="334" x2="330" y2="390" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="360" x2="343" y2="360" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="364" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T3</text>
+<text x="350" y="356" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">/SN_PP01_AXIS_X_MOVING · /SN_PP01_AXIS_Z_MOVING</text>
+<text x="350" y="372" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">· /SN_CV_101_01 · 200 ms/X2</text>
+<rect x="308" y="390" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="417" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E3</text>
+<line x1="352" y1="412" x2="380" y2="412" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="390" width="138.32" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="408" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_MTR_Z = 1</text>
+<line x1="330" y1="434" x2="330" y2="490" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="460" x2="343" y2="460" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="464" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T4</text>
+<text x="350" y="464" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_GR01_ZS_01 · 200 ms/X3</text>
+<rect x="308" y="490" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="517" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E4</text>
+<line x1="352" y1="512" x2="380" y2="512" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="490" width="138.32" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="508" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_MTR_Z = 0</text>
+<text x="390" y="524" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_GR01 = 1</text>
+<line x1="330" y1="534" x2="330" y2="590" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="560" x2="343" y2="560" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="564" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T5</text>
+<text x="350" y="556" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">/SN_PP01_AXIS_Z_MOVING · SN_PP01_GR01_ZS_01</text>
+<text x="350" y="572" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">· 500 ms/X4</text>
+<rect x="308" y="590" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="617" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E5</text>
+<line x1="352" y1="612" x2="380" y2="612" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="590" width="138.32" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="608" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_MTR_X = 1</text>
+<line x1="330" y1="634" x2="330" y2="690" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="660" x2="343" y2="660" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="664" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T6</text>
+<text x="350" y="664" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">/SN_PP01_AXIS_X_MOVING · 200 ms/X5</text>
+<rect x="308" y="690" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="717" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E6</text>
+<line x1="352" y1="712" x2="380" y2="712" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="682" width="138.32" height="60" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="700" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_MTR_Z = 1</text>
+<text x="390" y="716" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_01 = 1</text>
+<text x="390" y="732" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_02 = 0</text>
+<line x1="330" y1="734" x2="330" y2="790" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="760" x2="343" y2="760" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="764" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T7</text>
+<text x="350" y="764" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_01_ZS_02 · 200 ms/X6</text>
+<rect x="308" y="790" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="817" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E7</text>
+<line x1="352" y1="812" x2="380" y2="812" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="782" width="263.6" height="60" fill="#fff7ed" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="800" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_GR01 = 0</text>
+<text x="390" y="816" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_MTR_Z = 0</text>
+<text x="390" y="832" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">✱ ↑X7: CNT_CAJAS + 1 (Item at exit)</text>
+<line x1="330" y1="834" x2="330" y2="890" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="860" x2="343" y2="860" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="864" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T8</text>
+<text x="350" y="864" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">/SN_PP01_AXIS_Z_MOVING · 200 ms/X7</text>
+<rect x="308" y="890" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="917" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E8</text>
+<line x1="352" y1="912" x2="380" y2="912" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="890" width="131.35999999999999" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="908" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_02 = 1</text>
+<line x1="330" y1="934" x2="330" y2="990" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="960" x2="343" y2="960" stroke="#1f2937" stroke-width="3.2"/>
+<text x="312" y="964" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" font-weight="700" text-anchor="end">T9</text>
+<text x="350" y="964" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_CV_101_02 · 200 ms/X8</text>
+<rect x="308" y="990" width="44" height="44" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="330" y="1017" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" font-weight="700" text-anchor="middle">E9</text>
+<line x1="352" y1="1012" x2="380" y2="1012" stroke="#1f2937" stroke-width="1.6"/>
+<rect x="380" y="990" width="138.32" height="44" fill="#f8fafc" stroke="#1f2937" stroke-width="1.4"/>
+<text x="390" y="1008" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start">SN_PP01_MTR_X = 0</text>
+<line x1="330" y1="1034" x2="330" y2="1050" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="330" y1="1050" x2="650" y2="1050" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="330" y1="1050" x2="330" y2="1106" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="317" y1="1080" x2="343" y2="1080" stroke="#c2410c" stroke-width="3.2"/>
+<text x="312" y="1084" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">T2</text>
+<text x="350" y="1076" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SN_CV_101_01_ZS_01</text>
+<text x="350" y="1092" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">· CNT_CAJAS &lt; CNT_PRESET</text>
+<polyline points="330,1106 210,1106 210,274" fill="none" stroke="#c2410c" stroke-width="1.6"/>
+<polygon points="210,434 205,444 215,444" fill="#c2410c"/>
+<text x="204" y="424" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="end">nueva caja</text>
+<line x1="650" y1="1050" x2="650" y2="1120" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="637" y1="1080" x2="663" y2="1080" stroke="#c2410c" stroke-width="3.2"/>
+<text x="632" y="1084" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">T10</text>
+<text x="670" y="1076" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">CNT_CAJAS ≥ CNT_PRESET</text>
+<text x="670" y="1092" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">· /SN_PP01_AXIS_X_MOVING · 200 ms/X9</text>
+<rect x="628" y="1120" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="650" y="1147" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">E10</text>
+<line x1="672" y1="1142" x2="696" y2="1142" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="696" y="1104" width="235.76" height="76" fill="#fff7ed" stroke="#c2410c" stroke-width="1.4"/>
+<text x="706" y="1122" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">Pausa del lote (escena quieta):</text>
+<text x="706" y="1138" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SN_CV_101_01 = 0</text>
+<text x="706" y="1154" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SN_CV_101_02 = 0</text>
+<text x="706" y="1170" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">PROC_WAIT_ROBOT = 1</text>
+<line x1="650" y1="1164" x2="650" y2="1240" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="637" y1="1210" x2="663" y2="1210" stroke="#c2410c" stroke-width="3.2"/>
+<text x="632" y="1214" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">T11</text>
+<text x="670" y="1206" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">CNT_CAJAS &lt; CNT_PRESET</text>
+<text x="670" y="1222" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(G2 reinició el conteo tras DONE)</text>
+<polyline points="650,1240 150,1240 150,176" fill="none" stroke="#c2410c" stroke-width="1.6"/>
+<polygon points="150,376 145,386 155,386" fill="#c2410c"/>
+<text x="144" y="366" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="end">siguiente lote</text>
+<text x="24" y="1316" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">Reto 2 SCADA · UNAL · Juan Esteban Otavo García · GRAFCET IEC 60848 · generado con generar_grafcet.js</text>
+</svg>

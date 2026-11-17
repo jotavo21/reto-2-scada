@@ -1,0 +1,20 @@
+# Node-RED: credenciales, configuración local y dependencias
+node-red/flows_cred.json
+node-red/.config.*.json
+node-red/.flows*.backup
+node-red/node_modules/
+node-red/lib/
+node-red/settings.js
+
+# Bases SQLite que se crean al ejecutar
+*.db
+*.db-journal
+
+# Studio 5000: archivos temporales y respaldos
+*.Sem
+*.Wrk
+*.BAK*.acd
+
+# Sistema
+Thumbs.db
+desktop.ini

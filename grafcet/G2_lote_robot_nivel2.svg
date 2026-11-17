@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1f2937">G2 · Lote / robot — GRAFCET nivel 2 (tecnológico)</text>
+<text x="24" y="56" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280">✱ Todo nuevo. Handshake READY / START / BUSY / DONE. No se fuerza con STOP: el robot termina su rutina.</text>
+<g font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11"><rect x="730" y="16" width="14" height="14" fill="#fff7ed" stroke="#c2410c"/><text x="750" y="27" fill="#c2410c">✱ Nuevo en el Reto 2</text><rect x="730" y="36" width="14" height="14" fill="#f8fafc" stroke="#1f2937"/><text x="750" y="47" fill="#1f2937">Reto 1 (sin cambios)</text></g>
+<line x1="90" y1="90" x2="200" y2="90" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="200" y1="90" x2="200" y2="110" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="178" y="110" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<rect x="182" y="114" width="36" height="36" fill="none" stroke="#c2410c" stroke-width="1.4"/>
+<text x="200" y="137" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">R0</text>
+<text x="240" y="136" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#c2410c" font-style="italic" text-anchor="start">Esperando lote completo</text>
+<line x1="200" y1="154" x2="200" y2="240" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="187" y1="188" x2="213" y2="188" stroke="#c2410c" stroke-width="3.2"/>
+<text x="182" y="192" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TR1</text>
+<text x="220" y="184" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">CNT_CAJAS ≥ CNT_PRESET · ROBOT_READY</text>
+<text x="220" y="200" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">· /ROBOT_BUSY · /ESTOP_ACTIVA</text>
+<rect x="178" y="240" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="200" y="267" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">R1</text>
+<line x1="222" y1="262" x2="250" y2="262" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="250" y="240" width="214.88" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.4"/>
+<text x="260" y="258" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_START = 1</text>
+<text x="260" y="274" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(Node-RED lo copia al robot)</text>
+<line x1="200" y1="284" x2="200" y2="370" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="187" y1="318" x2="213" y2="318" stroke="#c2410c" stroke-width="3.2"/>
+<text x="182" y="322" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TR2</text>
+<text x="220" y="322" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_DONE</text>
+<rect x="178" y="370" width="44" height="44" fill="#fff7ed" stroke="#c2410c" stroke-width="1.8"/>
+<text x="200" y="397" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#c2410c" font-weight="700" text-anchor="middle">R2</text>
+<line x1="222" y1="392" x2="250" y2="392" stroke="#c2410c" stroke-width="1.6"/>
+<rect x="250" y="362" width="194" height="60" fill="#fff7ed" stroke="#c2410c" stroke-width="1.4"/>
+<text x="260" y="380" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_START = 0</text>
+<text x="260" y="396" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">CNT_CAJAS := 0</text>
+<text x="260" y="412" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(G1 sale de la pausa E10)</text>
+<line x1="200" y1="414" x2="200" y2="474" stroke="#c2410c" stroke-width="1.6"/>
+<line x1="187" y1="444" x2="213" y2="444" stroke="#c2410c" stroke-width="3.2"/>
+<text x="182" y="448" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="end">TR3</text>
+<text x="220" y="448" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">/ROBOT_DONE (el robot reconoció)</text>
+<polyline points="200,474 90,474 90,90" fill="none" stroke="#c2410c" stroke-width="1.6"/>
+<polygon points="90,270 85,280 95,280" fill="#c2410c"/>
+<rect x="560" y="110" width="390" height="237" fill="#fff7ed" stroke="#c2410c" stroke-dasharray="5 4"/>
+<text x="574" y="136" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" font-weight="700" text-anchor="start">Acciones continuas ✱</text>
+<text x="574" y="153" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start"></text>
+<text x="574" y="170" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">CNT_CAJAS: +1 en ↑X7 de G1</text>
+<text x="574" y="187" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(caja detectada en Item at exit)</text>
+<text x="574" y="204" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start"></text>
+<text x="574" y="221" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SN_DSP_101_01 := CNT_CAJAS</text>
+<text x="574" y="238" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">(display Counter de Factory IO)</text>
+<text x="574" y="255" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start"></text>
+<text x="574" y="272" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">SCADA_RESET_CNT · X_R0 → CNT_CAJAS := 0</text>
+<text x="574" y="289" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start"></text>
+<text x="574" y="306" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_READY / BUSY / DONE:</text>
+<text x="574" y="323" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">los escribe Node-RED desde el robot</text>
+<text x="574" y="340" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#c2410c" text-anchor="start">ROBOT_START: Node-RED lo copia al robot</text>
+<text x="24" y="606" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">Reto 2 SCADA · UNAL · Juan Esteban Otavo García · GRAFCET IEC 60848 · generado con generar_grafcet.js</text>
+</svg>
