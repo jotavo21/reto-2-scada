@@ -4,7 +4,7 @@ SCADA en Node-RED que supervisa y opera una celda Pick & Place simulada en Facto
 
 Juan Esteban Otavo García · SCADA y Controladores Industriales · Ingeniería Mecatrónica · Universidad Nacional de Colombia, sede Bogotá · 2026-II · Prof. Eduardo Barrera Gualdrón
 
-Video de la demostración: _(enlace de YouTube)_
+Video de la demostración: https://youtu.be/u8xqjjoFCJI
 
 ## Secuencia
 
